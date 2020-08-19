@@ -1,5 +1,4 @@
 from tkinter import Tk
-
 from model.application import Application
 
 if __name__ == '__main__':

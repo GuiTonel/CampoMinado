@@ -4,7 +4,7 @@ def revelar_botao( Bloco ):
     Bloco["state"] = 'disable'
     if (Bloco.isBomb):
         Bloco['background'] = 'red'
-        messagebox.showinfo(title = "Seu gay", message = "Você é gay!")
+        messagebox.showinfo(title = "Perdeu", message = "Você perdeu!")
     
     else:
         if len(Bloco.clearButtons) > 0:
